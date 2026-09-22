@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "ink-ripples",
-      "runtimeExecutable": "powershell",
-      "runtimeArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "ink-ripples/serve.ps1"],
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["ink-ripples/server.js"],
       "port": 8642
     }
   ]

@@ -1,0 +1,8 @@
+# Personal design notes stay local (backed up by OneDrive); only the folder structure is tracked.
+knowledge/**/*
+!knowledge/**/
+!knowledge/**/.gitkeep
+
+__pycache__/
+*.pyc
+.venv/

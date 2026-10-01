@@ -1,0 +1,2 @@
+CREATE DATABASE fusion360_rag;
+CREATE DATABASE blender_rag;

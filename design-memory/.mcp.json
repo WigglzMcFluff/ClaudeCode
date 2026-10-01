@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "fusion-design-memory": {
+      "type": "stdio",
+      "command": "C:\\Users\\ronbu\\.venvs\\design-memory\\Scripts\\python.exe",
+      "args": ["C:\\Users\\ronbu\\OneDrive\\Documents\\ClaudeCode\\design-memory\\mcp_server.py"],
+      "env": {
+        "RAG_STORE": "fusion360",
+        "HF_HUB_DISABLE_SYMLINKS_WARNING": "1",
+        "HF_HUB_OFFLINE": "1"
+      }
+    },
+    "blender-design-memory": {
+      "type": "stdio",
+      "command": "C:\\Users\\ronbu\\.venvs\\design-memory\\Scripts\\python.exe",
+      "args": ["C:\\Users\\ronbu\\OneDrive\\Documents\\ClaudeCode\\design-memory\\mcp_server.py"],
+      "env": {
+        "RAG_STORE": "blender",
+        "HF_HUB_DISABLE_SYMLINKS_WARNING": "1",
+        "HF_HUB_OFFLINE": "1"
+      }
+    }
+  }
+}
